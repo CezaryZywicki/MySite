@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<script type="text/javascript" src={{cdn_js | safe}} integrity="sha384-HjagQp6T0/7bxYTAXbLotF1MLAGWmhkY5siA1Gc/pcEgvgRPtMsRn0gQtMwGKiw1" crossorigin="anonymous"></script>
+<div class="about"> 
+    <h1>My About page</h1>
+    <p>This is a test website</p>
+    <p>This was added later</p>
+</div>
+{{script1 | safe}}
+{{div1 | safe}}
+{% endblock %}
